@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Loaner Vehicle Catalog</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>2</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-05 04:12:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0c40460930e0210fe9536718bba1085</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Loaner Vehicle Catalog</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1127749_lva">72d1f7d4938a0210fe9536718bba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">72d1f7d4938a0210fe9536718bba100b</sys_scope>
+        <sys_update_name>sys_app_module_d0c40460930e0210fe9536718bba1085</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-05 04:19:43</sys_updated_on>
+        <timeline_page/>
+        <title>Loaner Vehicle Catalog</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request &amp; Inventory">72d1f7d4938a0210fe9536718bba100b</application>
+        <file_path/>
+        <instance_id>1635c7151b823dd852a243f4bd4bcb45</instance_id>
+        <instance_name>dev193179</instance_name>
+        <name>sys_app_module_d0c40460930e0210fe9536718bba1085</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Loaner Vehicle Catalog</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-05 04:12:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d0c40460930e0210fe9536718bba1085</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Loaner Vehicle Catalog</sys_name><sys_overrides/><sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1127749_lva">72d1f7d4938a0210fe9536718bba100b</sys_package><sys_policy/><sys_scope display_value="Loaner Vehicle Request &amp; Inventory">72d1f7d4938a0210fe9536718bba100b</sys_scope><sys_update_name>sys_app_module_d0c40460930e0210fe9536718bba1085</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-05 04:19:43</sys_updated_on><timeline_page/><title>Loaner Vehicle Catalog</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1927663187</payload_hash>
+        <record_name>Loaner Vehicle Catalog</record_name>
+        <reverted_from/>
+        <source>4fd42fe0934e4210fe9536718bba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-05 21:08:08</sys_created_on>
+        <sys_id>7b8d63ec934e4210fe9536718bba10bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f4a95e3330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-05 21:08:08</sys_updated_on>
+        <type>Module</type>
+        <update_guid>778d63ec8f4e4210821ec006e83b03bc</update_guid>
+        <update_guid_history>778d63ec8f4e4210821ec006e83b03bc:0,14c68ca0370e0210912dd0d6bc61f44b:-1143412555,60e5c8a0280e0210035d1619b028b4d6:-620971581,8215c860cf0e0210d19c3b077de1af55:-1910877171</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Loaner Vehicle Catalog">ce03f7e0938e4210fe9536718bba10c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-05 21:32:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2f4cec07430646008db1c483e74ef900</sys_id>
+        <sys_metadata>d0c40460930e0210fe9536718bba1085</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Vehicle Catalog</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1127749_lva">72d1f7d4938a0210fe9536718bba100b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">72d1f7d4938a0210fe9536718bba100b</sys_scope>
+        <sys_scope_delete display_value="">13210aa97d8d4247bcd3093f19d2ff79</sys_scope_delete>
+        <sys_update_name>sys_app_module_d0c40460930e0210fe9536718bba1085</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d0c40460930e0210fe9536718bba1085">7b8d63ec934e4210fe9536718bba10bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-05 21:32:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

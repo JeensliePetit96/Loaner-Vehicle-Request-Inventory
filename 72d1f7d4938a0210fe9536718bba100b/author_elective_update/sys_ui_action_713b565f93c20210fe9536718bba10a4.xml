@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.vehicle_status == "returned for inspection" &amp;&amp;  current.tracker_status == "open"</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Send to repair</name>
+        <onclick/>
+        <order>200</order>
+        <script><![CDATA[current.vehicle_status = "returned to warehouse";
+actions.setRedirectURL(current);
+current.update();]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-14 04:13:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>713b565f93c20210fe9536718bba10a4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Send to repair</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1127749_lva">72d1f7d4938a0210fe9536718bba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">72d1f7d4938a0210fe9536718bba100b</sys_scope>
+        <sys_update_name>sys_ui_action_713b565f93c20210fe9536718bba10a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 02:38:21</sys_updated_on>
+        <table>x_1127749_lva_vehicle_tracker</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request &amp; Inventory">72d1f7d4938a0210fe9536718bba100b</application>
+        <file_path/>
+        <instance_id>1635c7151b823dd852a243f4bd4bcb45</instance_id>
+        <instance_name>dev193179</instance_name>
+        <name>sys_ui_action_713b565f93c20210fe9536718bba10a4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.vehicle_status == "returned for inspection" &amp;amp;&amp;amp;  current.tracker_status == "open"&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Send to repair&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;200&lt;/order&gt;&lt;script&gt;&lt;![CDATA[current.vehicle_status = "returned to warehouse";
+actions.setRedirectURL(current);
+current.update();]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-14 04:13:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;713b565f93c20210fe9536718bba10a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Send to repair&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Loaner Vehicle Request &amp;amp; Inventory" source="x_1127749_lva"&gt;72d1f7d4938a0210fe9536718bba100b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request &amp;amp; Inventory"&gt;72d1f7d4938a0210fe9536718bba100b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_713b565f93c20210fe9536718bba10a4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-15 02:38:21&lt;/sys_updated_on&gt;&lt;table&gt;x_1127749_lva_vehicle_tracker&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1030935598</payload_hash>
+        <record_name>Send to repair</record_name>
+        <reverted_from/>
+        <source>4fd42fe0934e4210fe9536718bba1041</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 02:38:21</sys_created_on>
+        <sys_id>fc7f0be393820210fe9536718bba1091</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f7a1d73e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 02:38:21</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>b47f0be3d78202101117c48cbe9fcd91</update_guid>
+        <update_guid_history>b47f0be3d78202101117c48cbe9fcd91:1030935598,712e8f638c820210006f81be1304897c:258069544,c51ec7630c8202100829ccb51eb417f5:325000777,a09922df4e06021026a24edea6500d16:-925253427,c6c3e2d3da0602109841095e1bd749c7:-1393730057,5cbb125f2fc20210e08cd915689968b5:-1434612131</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-15 02:42:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>5a403637ea234e86ac72b246d85bafe4</sys_id>
+        <sys_metadata>713b565f93c20210fe9536718bba10a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send to repair</sys_name>
+        <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1127749_lva">72d1f7d4938a0210fe9536718bba100b</sys_package>
+        <sys_parent display_value="Vehicle Tracker">2905d464934e0210fe9536718bba10e1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">72d1f7d4938a0210fe9536718bba100b</sys_scope>
+        <sys_scope_delete display_value="">13210aa97d8d4247bcd3093f19d2ff79</sys_scope_delete>
+        <sys_update_name>sys_ui_action_713b565f93c20210fe9536718bba10a4</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_713b565f93c20210fe9536718bba10a4">fc7f0be393820210fe9536718bba1091</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-15 02:42:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

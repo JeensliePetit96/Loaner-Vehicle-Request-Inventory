@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Location" section_id="18a83bb093128210fe9536718bba102e" sys_domain="global" table="sys_user" version="3" view="">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Location</caption>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-19 02:50:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18a83bb093128210fe9536718bba102e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loaner Vehicle Request &amp; Inventory" source="x_1127749_lva">72d1f7d4938a0210fe9536718bba100b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request &amp; Inventory">72d1f7d4938a0210fe9536718bba100b</sys_scope>
+            <sys_update_name>sys_ui_section_18a83bb093128210fe9536718bba102e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-19 02:50:41</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
